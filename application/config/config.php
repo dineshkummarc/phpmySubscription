@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = 'https://localhost/phpmySubscription/';
 
 //try to catch the base url in case of undefined base url 
 if (!$config['base_url']) {
